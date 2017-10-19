@@ -1,0 +1,27 @@
+{
+  "name": "lineage",
+  "version": "1.0.0",
+  "description": "Family Centered Social Netwrok",
+  "main": "lineage.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajpieri/Lineage.git"
+  },
+  "author": "Tony Pieri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajpieri/Lineage/issues"
+  },
+  "homepage": "https://github.com/ajpieri/Lineage#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.2.0"
+  }
+}
