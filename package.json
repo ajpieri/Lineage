@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/ajpieri/Lineage#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
     "jade": "^1.11.0",
     "mysql": "^2.15.0",
-    "nodemailer": "^4.2.0",
-    "nodemon": "^1.12.1"
+    "nodemailer": "^4.2.0"
   }
 }

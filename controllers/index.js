@@ -1,7 +1,11 @@
 var express = require('express')
-  , router = express.Router()
+var router = express.Router()
+var app = express()
 
 router.use('/users', require('./users.js'))
-router.use('/home', require('./home.js'))
+
+router.get('/', function(req, res){
+  res.render('index')
+})
 
 module.exports = router

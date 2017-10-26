@@ -4,7 +4,7 @@ var url = require('url');
 var router = express.Router()
 
 // define the home page route
-router.get('/users', function (req, res) {
+router.get('/', function (req, res) {
 
   var p = url.parse(req.url, true);
   var host = p.host;
@@ -28,7 +28,7 @@ router.get('/users', function (req, res) {
   //res.send('Users home page')
 })
 
-router.post('/users2', function (req, res) {
+router.post('/', function (req, res) {
 
   var p = url.parse(req.url, true);
   var host = p.host;

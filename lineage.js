@@ -1,9 +1,11 @@
 var express = require('express')
 var app = express()
+var path = require('path')
 
-app.set('views', __dirname + '/views')
-app.engine('jade', require('jade').__express)
-app.set('view engine', 'jade')
+// app.engine('jade', require('jade').__express)
+// app.set('view engine', 'jade')
+app.set('view engine', 'ejs')
+app.set('views', path.join(__dirname, '/views'))
 
 app.use(express.static(__dirname + '/public'))
 
