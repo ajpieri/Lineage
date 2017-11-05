@@ -1,11 +1,8 @@
 var express = require('express')
 var router = express.Router()
-var app = express()
 
-router.use('/users', require('./users.js'))
-
-router.get('/', function(req, res){
-  res.render('index')
-})
+router.use('/', require('./home.js'));
+router.use('/users', require('./users.js'));
+router.use('/states', require('./states.js'));
 
 module.exports = router
