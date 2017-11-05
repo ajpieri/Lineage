@@ -1,0 +1,307 @@
+form
+{
+   margin:0;
+   padding:0
+}
+
+button, input, label, select, td, textarea
+{
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+a
+{
+   color:#3b5998;
+   cursor:pointer;
+   -moz-outline-style:none;
+   text-decoration:none;
+}
+
+a:hover
+{
+   text-decoration:underline
+}
+
+.login_form
+{
+   float:right;
+}
+
+.login_form .login_form_label_field a
+{
+   color:#ffffff;
+   font-weight:normal
+}
+
+.login_form table tr
+{
+   vertical-align:top
+}
+
+.login_form_label_field
+{
+   padding-top:4px;
+}
+
+.logout_form_label_field a
+{
+   color:#ffffff;
+   font-weight:normal
+}
+
+.logout_form_label_field
+{
+   color:#3b5998;
+   font-size:11px;
+   padding-top:4px;
+   float: right;
+}
+
+.menubar_container
+{
+   min-width:980px;
+}
+
+.menubar_container_big
+{
+   height:82px;
+}
+
+.menubar_container_little
+{
+   height:62px;
+}
+
+.menubar
+{
+   height: 69px;
+   width: 980px;
+   margin: 0px auto;
+   padding-top: 6px;
+}
+
+.logo
+{
+   float: left;
+   margin-top: 19px;
+}
+
+.font_style
+{
+   color:#ffffff;
+   font-weight:normal;
+   padding-left:1px;
+   font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+   font-size: 11px;
+}
+
+.font_style_new_chain
+{
+   color:#000000;
+   font-weight:normal;
+   font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+   font-size: 11px;
+   width: 100%;
+   resize: none;
+}
+
+.logged_in_info
+{
+   float: right;
+}
+
+.logged_in_info_font
+{
+   color:#ffffff;
+   font-size:14px;
+   padding-top:4px;
+   font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+}
+
+.logged_in_info_font .logged_in_name a
+{
+   color:#ffffff;
+   font-weight:normal;
+}
+
+.logged_in_info_font .logged_in_name
+{
+   float: left;
+   padding-right: 5px;
+}
+
+.logged_in_action
+{
+   margin-top:25px;
+   margin-bottom:0px;
+   color:#999999;
+   font-size:11px;
+   font-weight: bold;
+}
+
+.logged_in_actions
+{
+   cursor:pointer;
+   font-size:16px;
+   margin-left:8px;
+}
+
+.picture_div
+{
+   float: left;
+   padding-right: 10px;
+}
+
+.content
+{
+   margin: 0 auto;
+   width: 986px;
+   padding-top: 20px;
+}
+
+.world_pic_div
+{
+   margin: 0 auto;
+   width: 565px;
+   display: inline-block;
+   padding-top: 20px;
+}
+
+.world_img
+{
+   width: inherit;
+}
+
+.mission_statement
+{
+   margin: 0 auto;
+   width: 400px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.options
+{
+   border: 3px solid #0FA421;
+   width: 230px;
+   height: 230px;
+   border-radius: 60px;
+   font-size:16px;
+   display:table;
+}
+
+.option_columns
+{
+   text-align: center;
+}
+
+.not_logged_in_new_chain
+{
+   margin: 0 auto;
+   width: 400px;
+   height: 300px;
+   margin-top: 100px;
+   text-align: center;
+}
+
+.not_logged_in_new_chain_back_to_home_div
+{
+   display:table;
+   height:60px;
+   font-size:20px;
+   float:right;
+}
+
+.not_logged_in_new_chain_back_to_home_link
+{
+   display:table-cell;
+   vertical-align:middle;
+   color:#FFFFFF;
+}
+
+.side_menu
+{
+   width: 179px;
+   height: 100%;
+   border-right: 1px solid #CCCCCC;
+   display: inline-block;
+   float: left;
+}
+
+.user_page_body
+{
+   margin: 0 auto;
+   width: 595px;
+   height: 100%;
+   border-right: 1px solid #CCCCCC;
+   display: inline-block;
+}
+
+.user_page_content
+{
+   margin: 0 auto;
+   width: 1080px;
+   height: 100%;
+   padding-top: 20px;
+}
+
+.user_page_info_pic
+{
+   float: left;
+   padding-right: 10px;
+   display: inline-block;
+}
+
+.user_page_info
+{
+   text-align: center;
+   display: inline-block;
+}
+
+.my_stuff_table
+{
+   display:inline-table;
+   width:100%;
+   height:100%;
+}
+
+.my_stuff_row
+{
+   display:table-row;
+   height:50%;
+}
+
+.my_stuff_header
+{
+   display:table-cell;
+   height:15px;
+}
+
+.create_chain_button
+{
+   color: #FFFFFF;
+   cursor: pointer;
+   height: 37px;
+   width: 37px;
+   background-image: url(../images/EchoIcon.png);
+   background-repeat: no-repeat;
+   border-radius: 4px;
+}
+
+.view_chain_button
+{
+   color: #FFFFFF;
+   cursor: pointer;
+   height: 37px;
+   float: right;
+   border-radius: 4px;
+   color: black;
+   font-size: medium;
+}
+
+.home_page_chain_box
+{
+   border-bottom: 1px solid #CCCCCC;
+   border-top: 1px solid #CCCCCC;
+   height: 150px;
+}
